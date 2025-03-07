@@ -1,0 +1,96 @@
+/* style.css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f2f5;
+    color: #333;
+    text-align: center;
+}
+
+header {
+    background: linear-gradient(135deg, #0073e6, #00aaff);
+    color: white;
+    padding: 50px 20px;
+    font-size: 32px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.about {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 30px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease;
+}
+
+.about:hover {
+    transform: translateY(-5px);
+}
+
+.about img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
+.career-list {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 30px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease;
+}
+
+.career-list:hover {
+    transform: translateY(-5px);
+}
+
+.career-list h2 {
+    color: #0073e6;
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: linear-gradient(135deg, #0073e6, #00aaff);
+    color: white;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 600;
+    transition: transform 0.3s, background 0.3s;
+    cursor: pointer;
+}
+
+li:hover {
+    background: linear-gradient(135deg, #005bb5, #0088cc);
+    transform: scale(1.05);
+}
+
+footer {
+    background: #333;
+    color: white;
+    padding: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 50px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
